@@ -40,7 +40,7 @@ from llama_index.utils.workflow import draw_all_possible_flows
 
 from web_scrape import WebSearch
 
-os.environ["GOOGLE_API_KEY"] = "AIzaSyBaCPoDRB6V5ixnVCY3QUL0OhOSZwOa1mo"
+os.environ["GOOGLE_API_KEY"] = "********************************"
 
 class IndexSaveEvent(Event):
   """ Result of Document Loading """
